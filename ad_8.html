@@ -1,0 +1,836 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <title>WEB U/X</title>
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css">
+  <!-- Bootstrap core CSS -->
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+  <!-- Material Design Bootstrap -->
+  <link href="css/mdb.min.css" rel="stylesheet">
+  <!-- Your custom styles (optional) -->
+  <link href="css/style_ab.css" rel="stylesheet">
+</head>
+
+<html lang="en" class="full-height">
+
+<!--Main Navigation-->
+<header>
+<!-- navbar -->
+<nav class="navbar fixed-top navbar-expand-lg navbar-dark scrolling-navbar">
+  <a class="navbar-brand" href="index.html"><strong>WEB U/X</strong></a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+    aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+           <ul class="navbar-nav mr-auto smooth-scroll">
+                  <li class="nav-iten">
+                    <a href="index.html" class="nav-link waves-effect waves-light">Home</a>
+                  </li>
+                  <li class="nav-iten">
+                    <a href="#Products" class="nav-link waves-effect waves-light">Product</a>
+                  </li>
+                  <li class="nav-iten">
+                      <a href="#best-features" class="nav-link waves-effect waves-light">Bloge</a>
+                    </li>
+                    <li class="nav-item ">
+                      <a href="#adout" class="nav-link waves-effect waves-light">Support</a>
+                      </li>
+                    <li class="nav-iten">
+                        <a href="work.html" class="nav-link waves-effect waves-light">work of students</a>
+                      </li>
+                     
+                        <li class="nav-iten">
+                            <a href="news_2.html" class="nav-link waves-effect waves-light">News</a>
+                          </li>
+                          <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Lectures</a>
+                            <div class="dropdown-menu ">
+                              <a class="dropdown-item " href="ad.html">TASK 1</a>
+                                <a class="dropdown-item" href="ad_2.html">TASK 2</a>
+                                <a class="dropdown-item" href="ad_3.html">TASK 3</a>
+                                <a class="dropdown-item" href="ad_4.html">TASK 4</a>
+                                <a class="dropdown-item" href="ad_5.html">TASK 5</a>
+                                <a class="dropdown-item" href="ad_6.html">TASK 6</a>
+                                <a class="dropdown-item" href="ad_7.html">TASK 7</a>
+                                <a class="dropdown-item" href="ad_8.html">TASK 8</a>
+                                <a class="dropdown-item" href="ad_9.html">TASK 9</a>
+                                <a class="dropdown-item" href="ad_10.html">TASK 10</a>
+                            </div>
+                          </li>
+                </ul>
+                <!-- icons -->
+  <ul class="navbar-nav nav-flex-icons ml-auto">
+    <li class="nav-item dropdown w_t"> 
+      <a href="siginin.html">
+        Sign in
+        </a>
+      <a href="siginup.html">Sigin up</a>
+   </li>
+    <li class="nav-item dropdown w_t"> 
+      <a href="https://vspwebua.github.io/index.html">Українська версія</a>
+   </li>
+          <li class="nav-item">
+            <a class="nav-link" href="https://t.me/vspwebux">
+              <i class="fab fa-telegram-plane" aria-hidden="true"></i>
+            </a>
+          </li>
+          
+          
+        </ul>
+        <!-- icons -->
+  </div>
+</nav>
+<!-- navbar -->
+      
+</header>
+
+
+<!--Ocnova-->
+<main class="mt-5">
+
+  <div class="container">
+
+
+    <section id="best-features" class="text-center">
+      <!-- text-headline -->
+      <h2 class="md-5 font-weight-bold"> Левая колонка</h2>
+      <!-- text-headline -->
+      <div class="row d-flex justife-content-center md-4">
+        <!-- text-osnovna -->
+        <div class="col-md-12">
+            <p class="gray-text">Перенесення макета в HTML та стилізація його в CSS.</p>
+        </div>
+        <!-- text-osnovna -->
+      </div>
+
+    </section>
+
+    <section class="text-center">
+
+            <div class="container">
+                    <div class="row">
+                      <div class="col">
+                          <div class="img_ad4">
+                     <img class="" src="http://psd-html-css.ru/sites/default/files/public/old/cssless/css12-1.jpg" alt="">
+                    </div>
+                      </div>
+                      <div class="col">
+                          <p class="one-text font-weight-normal">Перед тим, як приступити до верстки лівої колонки, змінимо внутрішні відступи у
+                            селектора <code>#content</code> , а також видалимо блоки з класом contentв лівій колонці і 
+                            центральній частині в шаблоні <span class="font-weight-bold">index.html</span> .</p>
+                         <p class="one-text font-weight-normal">Для селектора <code>#content</code> вкажемо відступи зліва і справа по 
+                        <code>29px</code> , а також, у зв'язку з тим, що змінилася висота підвалу, відступ знизу <code>102px</code> :</p>
+                            <div class="wr">
+                                    <pre>
+    #content {
+        padding: 0 29px 102px;
+        overflow: hidden;
+        clear: both;
+        margin-top: 30px;
+        }
+                                        </pre>
+                            </div>
+                            <p class="one-text font-weight-normal">У файлі <code>index.html</code>  після того, як ви видалите блоки з 
+                            класом <code>content</code> з лівої колонки і центральної частини, код буде виглядати наступним чином:</p>
+                            <div class="wr">
+                                    <pre>
+    &lt;div id="content"&gt;
+        &lt;!--Левая колонка--&gt;
+        &lt;div id="leftcol"&gt;   
+
+        &lt;/div&gt;
+            &lt;!--Контент--&gt;
+            &lt;div id="main"&gt;
+            &lt;h1&gt;...&lt;/h1&gt;
+                 &lt;p&gt;...&lt;/p&gt;
+         &lt;/div&gt;
+        &lt;/div&gt;
+                                        </pre>
+                            </div>
+                        </div>
+                    </div>
+                    
+                  </div>
+    </section>
+
+    <section class="text-center">
+
+        <p class="one-text font-weight-normal"> У файлі зі стилями для лівої колонки запишемо наступні властивості:</p>
+        <div class="wr">
+                <pre>
+                    #leftcol {
+                        width: 220px;
+                        padding: 3px 3px 4px;
+                        float: left;
+                        margin-right: 18px;
+                    }
+        </div>
+        
+
+        <hr>
+
+        <p class="one-text font-weight-normal">Так як всередині лівої колонки будуть знаходиться блоки, які мають тінь, то ми повинні для відображення цієї 
+        тіні вказати відступи всередині <code>padding: 3px 3px 4px;</code> , інакше вона буде обрізатися, так як у блоку,
+        в якому знаходиться ліва колонка, тобто у селектора #content, встановлено властивість <code>overflow: hidden;</code> </p>
+        <p class="one-text font-weight-normal">У файлі <code>index.html</code>  додамо три блоки з класом <code>block-</code>  для кошика, для пошуку за каталогом і блок для категорій товарів:</p>
+   
+        <div class="wr">
+                <pre>
+                    &lt;div id="leftcol"&gt;
+                        &lt;!--Корзина--&gt;
+                        &lt;div class="block"&gt;
+                    
+                        &lt;/div&gt;
+                        &lt;!--Поиск по каталогу--&gt;
+                        &lt;div class="block"&gt;
+                    
+                        &lt;/div&gt;
+                        &lt;!--Категории товаров--&gt;
+                        &lt;div class="block"&gt;
+                    
+                        &lt;/div&gt;
+                    &lt;/div&gt;
+                    </pre>
+        </div>
+        <p class="one-text font-weight-normal">У файлі зі стилями запишемо властивості для селектора <code>.block</code> :</p>
+        <div class="wr">
+                <pre>
+                    .block {
+                        -webkit-border-radius: 3px;
+                        -moz-border-radius: 3px;
+                        border-radius: 3px;
+                        background-color: white;
+                        -webkit-box-shadow: 0 1px 5px rgba(0,0,0,0.25);
+                        -moz-box-shadow: 0 1px 5px rgba(0,0,0,0.25);
+                        box-shadow: 0 1px 5px rgba(0,0,0,0.25);
+                        margin-bottom: 20px;
+                    }
+                    </pre>
+        </div>
+        <p class="one-text font-weight-normal">Тут за допомогою властивості <code>box-shadow</code> ми задаємо тінь для блоку.
+         Параметри тіні можна дізнатися у програмі Adobe Photoshop таким же чином, як ми це робили для тексту, що має тінь.</p>
+                
+        <p class="one-text font-weight-normal">Далі ми будемо працювати над кожним блоком окремо, почнемо з кошика.</p>
+    </section>
+
+<h3 class="text-center">Створення блоку корзина на сайті</h3>
+
+    <section class="text-center">
+        
+        <div class="container">
+                <div class="row">
+                  <div class="col">
+                      <div class="img_ad2">        
+                       <img class="" src="http://psd-html-css.ru/sites/default/files/public/old/cssless/css13-1.jpg" alt="">
+                     </div>
+                  </div>
+                  <div class="col">
+                      <p  class="one-text font-weight-normal">У цьому уроці зверстаємо блок з кошиком. У файлі <code>index.html</code>
+                          запишіть наступний код для даного блоку:</p>
+                        <div class="wr">
+                                <pre>
+         &lt;!--Корзина--&gt;
+            &lt;div class="block"&gt;
+                &lt;div class="header"&gt;Корзина&lt;/div&gt;
+                    &lt;div class="content"&gt;                               
+                    &lt;p&gt;В вашей корзине:&lt;br&gt;нет товаров&lt;/p&gt;                               
+                    &lt;/div&gt;
+            &lt;/div&gt;                                
+                                        </pre>
+                        </div>
+                  </div>
+                </div>
+                
+              </div>
+
+              <hr>
+
+        <p class="one-text font-weight-normal">Ми створили два блоки: для шапки <code>&lt;div class="header"&gt;&lt;/div&gt;</code>та для тематичної частини
+             <code>&lt;div class="content"&gt;&lt;/div&gt;</code>. Тепер перейдемо до файлу зі стилями і запишемо властивості
+              для шапки, тобто для селектора <code>.header</code> :</p>
+
+        <div class="wr">
+                <pre>
+                    .block&gt;.header {
+                        padding: 10px 10px 10px 35px;
+                        background-color: #41b039;
+                        -webkit-border-radius: 3px 3px 0 0;
+                        -moz-border-radius: 3px 3px 0 0;
+                        border-radius: 3px 3px 0 0;
+                        font: bold 16px/16px Arial;
+                        color: white;
+                    }
+                    </pre>
+        </div>
+        <p class="one-text font-weight-normal">Тут ми вказали відступи всередині блоку, зліва зробили відступ, рівний <code>35px</code>
+            для того, щоб там вмістилася іконка. Вказали радіус заокруглення кутів, а саме верхнього лівого кута і верхнього правого кута.
+             Вказали властивості для шрифту: накреслення, розмір, інтервал між рядками, колір.</p>
+        <p class="one-text font-weight-normal">Допишемо властивості для фонового зображення <code> background-positionі background-repeat</code>:</p>
+            <div class="wr">
+                    <pre>
+                        .block&gt;.header {
+                            padding: 10px 10px 10px 35px;
+                            background-color: #41b039;
+                            background-position: 10px center;
+                            background-repeat: no-repeat;
+                            -webkit-border-radius: 3px 3px 0 0;
+                            -moz-border-radius: 3px 3px 0 0;
+                            border-radius: 3px 3px 0 0;
+                            font: bold 16px/16px Arial;
+                            color: white;
+                        }
+                        </pre>
+            </div>
+      
+            <hr>
+            
+        <p class="one-text font-weight-normal">Так як у кожного блоку в лівій колонці є своя іконка, то ми для цих блоків додамо свій клас,
+             наприклад, для блоку з кошиком це буде клас <code>basket</code>: <code>&lt;div class="block basket"&gt;&lt;/div&gt;</code>:</p>
+            <div class="wr">
+                    <pre>
+                        .block.basket&gt;.header {
+                            background-image: url("img/basket.png");
+                        }
+                        </pre>
+            </div>
+
+            <hr>
+
+        <p class="one-text font-weight-normal">Коли блок має два і більше класів, то ви можете записати в файлі зі стилями або один селектор
+             класу, або все разом без пробілів,як в прикладі вище <code>.block.basket</code>  {...}</p>
+        <p class="one-text font-weight-normal">Для блоку з класом content, що знаходиться всередині блоку з класом <code>block</code> ,
+             ми запишемо такі властивості:</p>
+            <div class="wr">
+                    <pre>
+                        .block&gt;.content {
+                            padding: 10px;
+                        }
+                        </pre>
+            </div>
+
+            <hr>
+
+        <p class="one-text font-weight-normal">І властивості для абзацу всередині блоку:</p>
+            <div class="wr">
+                    <pre>
+                        .block.basket&gt;.content p {
+                            margin-bottom: 0;
+                            line-height: 20px;
+                        }
+                        </pre>
+            </div>
+        <p class="one-text font-weight-normal">Переходимо до блоку з формою для пошуку.</p>
+    </section>
+
+    <h3 class="text-center">Пошук по каталогу</h3>
+
+    <section class="text-center">
+            <div class="container">
+                    <div class="row">
+                      <div class="col">
+                          <div class="img_ad2">        
+                           <img class="" src="http://psd-html-css.ru/sites/default/files/public/old/cssless/css14-1.jpg" alt="">
+                         </div>
+                      </div>
+                      <div class="col">
+                          <p  class="one-text font-weight-normal">Для блоку з пошуком по каталогу ми поставимо додатковий клас <code>search</code> :</p>
+                            <div class="wr">
+                                    <pre>
+    &lt;!--Поиск по каталогу--&gt;
+
+         &lt;div class="block search"&gt;
+                                            
+        &lt;/div&gt;
+                                            </pre>
+                            </div>
+                      </div>
+                    </div>
+                    
+                  </div>
+                  <p class="one-text font-weight-normal">Пропишемо код всередині цього блоку:</p>
+                <div class="wr">
+                        <pre>
+                            
+                            &lt;!--Поиск по каталогу--&gt;
+                                &lt;div class="block search"&gt;
+                                    &lt;div class="header"&gt;Поиск по каталогу&lt;/div&gt;
+                                    &lt;div class="content"&gt;
+                                        &lt;form&gt;
+                                            &lt;input type="text"&gt;
+                                            &lt;button&gt;Найти&lt;/button&gt;
+                                            &lt;p class="description"&gt;Введите название товара&lt;/p&gt;
+                                        &lt;/form&gt;
+                                    &lt;/div&gt;
+                                &lt;/div&gt;
+                                </pre>
+                </div>
+                <hr>
+
+                <p class="one-text font-weight-normal">Переходимо до файлу зі стилями. Спершу запишемо шлях до фонового зображення даного блоку:</p>
+    
+                <div class="wr">
+                        <pre>
+                            /*Поиск по каталогу*/
+                                .block.search .header {
+                                    background-image: url("img/search.png");
+                                }
+                                </pre>
+                </div>
+
+                <hr>
+
+                <p class="one-text font-weight-normal">Тепер окремо пропишемо властивості для елементів форми на початку css-документа після властивостей для абзацу:</p>
+                
+                    <div class="wr">
+                            <pre>
+                                    input,button,textarea {
+                                    box-sizing: border-box;
+                                    -webkit-box-sizing: border-box;
+                                    -moz-box-sizing: border-box;
+                                    display: inline-block;
+                                    border-radius: 3px;
+                                    -webkit-border-radius: 3px;
+                                    -moz-border-radius: 3px;
+                                }
+                                </pre>
+                    </div>
+
+                    <hr>
+
+                <p class="one-text font-weight-normal">Для цих елементів ми вказали властивість <code>box-sizing</code> , яке відповідає за те,
+                 як буде вимірюватися ширина зазначених елементів. У нашому випадку ширина блоку повинна включати в себе значення кордонів
+                 <code>(border)</code>  і внутрішніх відступів <code>(padding)</code> , тому ми вказали значення <code>border-box</code> .</p>
+                <p class="one-text font-weight-normal">Значення <code> inline-block</code>властивості <code>display</code> робить елемент блоковим, але при цьому він обтекается
+                     іншими елементами веб-сторінки подібно строчному елементу.</p>
+                <p class="one-text font-weight-normal">Для текстового поля вкажемо такі властивості:</p>
+                <div class="wr">
+                        <pre>
+                                input[type="text"] {
+                                -moz-box-shadow: inset 0 2px 3px rgba(0,0,0,0.13);
+                                -webkit-box-shadow: inset 0 2px 3px rgba(0,0,0,0.13);
+                                box-shadow: inset 0 2px 3px rgba(0,0,0,0.13);
+                                height: 30px;
+                                border: 1px solid #ccc;
+                                padding: 0 4px;
+                            }
+                            </pre>
+                </div>
+
+                <hr>
+
+                <p class="one-text font-weight-normal">Тут значення <code>inset</code> властивості <code>box-shadow</code> вказує на параметри
+                     внутрішньої тіні.</p>
+                <div class="wr">
+                        <pre>
+                                button {
+                                background-color: #ddd;
+                                background-image: -moz-linear-gradient(top, #f5f5f5, #ddd);
+                                background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#f5f5f5), to(#ddd));
+                                background-image: -webkit-linear-gradient(top, #f5f5f5, #ddd);
+                                background-image: -o-linear-gradient(top, #f5f5f5, #ddd);
+                                background-image: linear-gradient(to bottom, #f5f5f5, #ddd);
+                                background-repeat: repeat-x;
+                                height: 25px;
+                                padding: 0 10px;
+                                -webkit-box-shadow: 0 3px 3px rgba(0,0,0,0.13);
+                                -moz-box-shadow: 0 3px 3px rgba(0,0,0,0.13);
+                                box-shadow: 0 3px 3px rgba(0,0,0,0.13);
+                                border: 1px solid #c7c7c7;
+                                font-size: 12px;
+                                line-height: 12px;
+                                cursor: pointer;
+                            }
+                            </pre>
+                </div>
+                <hr>
+
+                <p class="one-text font-weight-normal">Тут фон кнопки ми вказали у вигляді градієнта, перше значення відповідає
+                     за верхній колір, друге за нижній колір. Ми вказали кілька властивостей для різних браузерів і їх версій.</p>
+                <p class="one-text font-weight-normal">За допомогою властивості <code>cursor</code> можна змінити вид курсора. Ми встановили значення pointer, щоб при
+                     наведенні курсору на кнопку він виглядав таким чином:</p>
+                     <img src="http://psd-html-css.ru/sites/default/files/public/old/cssless/css14-2.png" alt="">
+                <p class="one-text font-weight-normal">Властивості для зеленої кнопки:</p>
+                <div class="wr">
+                        <pre>
+                                button.green {
+                                background-color: #41b039;
+                                background-image: -moz-linear-gradient(top, #4ecf44, #41b039);
+                                background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#4ecf44), to(#41b039));
+                                background-image: -webkit-linear-gradient(top, #4ecf44, #41b039);
+                                background-image: -o-linear-gradient(top, #4ecf44, #41b039);
+                                background-image: linear-gradient(to bottom, #4ecf44, #41b039);
+                                border: 0;
+                                color: white;
+                                }
+                            </pre>
+                </div>
+
+                <hr>
+
+                <p class="one-text font-weight-normal">Запишемо стилі для текстового поля, який отримав фокус:</p>
+                <div class="wr">
+                        <pre>
+                            input[type="text"]:focus {
+                                outline: none;
+                            }
+                            </pre>
+                </div>
+                <hr>
+
+                <p class="one-text font-weight-normal">Тут ми прибрали зовнішню кордон.</p>
+                <p class="one-text font-weight-normal">Властивості кнопки, коли на неї вказівником миші:</p>
+                <div class="wr">
+                        <pre>
+                            button:hover {
+                                background-position: 0 -25px;
+                            }
+                            </pre>
+                </div>
+
+                <hr>
+
+                <p class="one-text font-weight-normal">Для селектора <code>.description</code> запишемо наступні властивості:</p>
+                <div class="wr">
+                        <pre>
+                            .description {
+                                color: #999;
+                                font-size: 12px;
+                                line-height: 12px;
+                            }
+                            </pre>
+                </div>
+
+                <hr>
+
+                <p class="one-text font-weight-normal">Переходимо до оформлення форми безпосередньо в блоці з пошуком. Для всієї форми 
+                    зробимо відносне позиціонування:</p>
+                <div class="wr">
+                        <pre>
+                            .block.search form {
+                                position: relative;
+                            }
+                            </pre>
+                </div>
+                
+                <hr>
+
+                <p class="one-text font-weight-normal">Для текстового поля встановимо ширину в <code> 100%</code>, щоб воно розтягувалося на 
+                    все ширину блоку,в якому знаходиться. Встановимо відступ справа, щоб текст не зникав під кнопкою, і відступ знизу від поля:</p>
+                     
+                <div class="wr">
+                            <pre>
+                                .block.search form&gt;input {
+                                width: 100%;
+                                padding-right: 57px;
+                                margin-bottom: 4px;
+                            }
+                            </pre>
+                </div>
+                
+                <hr>
+
+                <p class="one-text font-weight-normal">Для кнопки встановимо абсолютне позиціонування, зробимо відступи справа і зверху, встановимо
+                     висоту, розмір тексту, міжрядковий інтервал і приберемо зовнішню тінь:</p>
+                <div class="wr">
+                        <pre>
+                            .block.search form&gt;button {
+                                position: absolute;
+                                right: 4px;
+                                top: 5px;
+                                height: 20px;
+                                font-size: 11px;
+                                line-height: 11px;
+                                box-shadow: none;
+                            }
+                            </pre>
+                </div>
+
+                <p class="one-text font-weight-normal">Для абзацу приберемо відступ знизу:</p>
+                <div class="wr">
+                        <pre>
+                            .block.search .description {
+                                margin-bottom: 0;
+                            }
+                            </pre>
+                </div>
+                
+                <hr>
+
+                <p class="one-text font-weight-normal">Форма пошуку готова. Переходимо до блоку з категоріями товарів.</p>
+
+                
+            </section>
+
+            <h3 class="text-center">Bертикальне меню</h3>
+            <section class="text-center">
+                    <div class="container">
+                            <div class="row">
+                              <div class="col">
+                                  <div class="img_ad4">        
+                                   <img class="" src="http://psd-html-css.ru/sites/default/files/public/old/cssless/css15-1.jpg" alt="">
+                                 </div>
+                              </div>
+                              <div class="col">
+                                  <p class="one-text font-weight-normal">Для блоку з вертикальним меню додамо додатковий клас : <code>category</code> :</p>
+                                    <div class="wr">
+    <pre>
+    &lt;!--Категории товаров--&gt;
+        &lt;div class="block category"&gt;
+                                                    
+        &lt;/div&gt;
+    </pre>
+    
+
+                                    </div>
+                                <p class="one-text font-weight-normal">Запишемо блок для шапки та структуру вертикального меню:</p>   
+                                <div class="wr">
+                                    
+<pre>&lt;!--Категории товаров--&gt;
+        &lt;div class="block category"&gt;
+            &lt;div class="header"&gt;Категории товаров&lt;/div&gt;
+            &lt;ul class="v-menu"&gt;
+                &lt;li&gt;&lt;a href=""&gt;Благоустройство участков&lt;/a&gt;&lt;/li&gt;
+                &lt;li&gt;&lt;a href=""&gt;Внешняя отделка&lt;/a&gt;&lt;/li&gt;
+                &lt;li&gt;&lt;a href=""&gt;Внутренняя отделка&lt;/a&gt;&lt;/li&gt;
+                &lt;li&gt;&lt;a href=""&gt;Кровля&lt;/a&gt;&lt;/li&gt;
+                &lt;li&gt;&lt;a href=""&gt;Металлоконструкции&lt;/a&gt;&lt;/li&gt;
+                &lt;li&gt;&lt;a href=""&gt;Окна и двери&lt;/a&gt;&lt;/li&gt;
+                &lt;li&gt;&lt;a href=""&gt;Осветительное оборудование&lt;/a&gt;&lt;/li&gt;
+                &lt;li&gt;&lt;a href=""&gt;Спецтехника&lt;/a&gt;&lt;/li&gt;
+                &lt;li&gt;&lt;a href=""&gt;Строительный инструмент&lt;/a&gt;&lt;/li&gt;
+                &lt;li&gt;&lt;a href=""&gt;Цемент и бетон&lt;/a&gt;&lt;/li&gt;
+            &lt;/ul&gt;
+        &lt;/div&gt;
+        </pre>
+                                </div> 
+                              </div>
+                            </div>
+                            
+                          </div>
+            <p class="one-text font-weight-normal">Для вертикального меню ми вказали клас <code> v-menu</code>. У файлі style.css запишемо 
+                шлях до зображення в шапці:</p>
+            <div class="wr">
+                    <pre>
+                            /*Категории товаров*/
+                            .block.category .header {
+                                background-image: url("img/category.png");
+                            }
+                            </pre>
+            </div>
+            <hr>
+            <p class="one-text font-weight-normal">Запишемо стилі для вертикального меню. Спершу приберемо маркери у пунктів:</p>
+            <div class="wr">
+                    <pre>
+                        .block.category .v-menu&gt;li {
+                            list-style-type: none;
+                        }
+                        </pre>
+            </div>
+            <hr>
+            <p class="one-text font-weight-normal">Пропишемо властивості для посилання: зробимо її блоковим елементом, встановимо внутрішні
+                 відступи по <code>10px</code> , приберемо підкреслення, встановимо кордон зверху, і вкажемо міжрядковий інтервал:</p>
+            <div class="wr">
+                    <pre>
+                        .block.category .v-menu&gt;li&gt;a {
+                            display: block;
+                            padding: 10px;
+                            text-decoration: none;
+                            border-top: 1px solid #ccc;
+                            line-height: 14px;
+                        }
+                        </pre>
+            </div>
+            <hr>
+
+            <p class="one-text font-weight-normal">У посилання першого пукнт приберемо кордон зверху:</p>
+            <div class="wr">
+                    <pre>
+                        .block.category .v-menu&gt;li:first-child&gt;a {
+                            border-top: 0;
+                        }
+                        </pre>
+            </div>
+
+            <hr>
+
+            <p class="one-text font-weight-normal">У посилання останнього пункту в меню вкажемо радіус округлення лівого ніженіе кута і правого нижнього кута:</p>
+            <div class="wr">
+                    <pre>
+                            .block.category .v-menu&gt;li:last-child&gt;a {
+                            -webkit-border-radius: 0 0 3px 3px;
+                            -moz-border-radius: 0 0 3px 3px;
+                            border-radius: 0 0 3px 3px;
+                            }
+                        </pre>
+           
+            </div>
+
+            <hr>
+
+            <p class="one-text font-weight-normal">Встановимо властивості для посилання виділеного пункту - колір фону і тексту:</p>
+            <div class="wr">
+                    <pre>
+                            .block.category .v-menu&gt;li&gt;a:hover,
+                            .block.category .v-menu&gt;li.active&gt;a {
+                                background-color: #f8f8f8;
+                                color: #444;
+                            }
+                            </pre>
+            </div>
+            <p class="one-text font-weight-normal">Вертикальне меню готове, переходимо до основної частини, а саме до блоку з популярними товарами.</p>
+        </section>
+</div>
+</main>
+<!-- Ocnova -->
+<hr class="my-5">
+<!-- Footer -->
+<footer class="page-footer font-small unique-color-dark">
+
+    <div style="background-color: #6351ce;">
+      <div class="container">
+
+        <!-- Grid row-->
+        <div class="row py-4 d-flex align-items-center">
+
+          <!-- Grid column -->
+          <div class="col-md-6 col-lg-5 text-center text-md-left mb-4 mb-md-0">
+            <h6 class="mb-0">Get connected with us on social networks!</h6>
+          </div>
+          <!-- Grid column -->
+
+          <!-- Grid column -->
+          <div class="col-md-6 col-lg-7 text-center text-md-right">
+
+             
+              <a class="li-ic">
+                  <i class=" fas fa-envelope white-text mr-4"> </i>
+                </a>
+            <!--telegram -->
+            <a class="li-ic">
+              <i class="fab fa-telegram-plane white-text mr-4"> </i>
+            </a>
+            <!--Instagram-->
+            <a class="ins-ic">
+              <i class="fab fa-instagram white-text mr-4"> </i>
+            </a>
+
+          </div>
+          <!-- Grid column -->
+
+        </div>
+        <!-- Grid row-->
+
+      </div>
+    </div>
+
+    <!-- Footer Links -->
+    <div class="container text-center text-md-left mt-5">
+
+      <!-- Grid row -->
+      <div class="row mt-3">
+
+        <!-- Grid column -->
+        <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+
+          <!-- Content -->
+          <h6 class="text-uppercase font-weight-bold">WEB U/X</h6>
+          <hr class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
+          <p>
+              The course is designed in a well to lift students' skills</p>
+
+        </div>
+        <!-- Grid column -->
+
+        <!-- Grid column -->
+        <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+
+          <!-- Links -->
+          <h6 class="text-uppercase font-weight-bold">Products</h6>
+          <hr class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
+          <p>
+            <a href="#!">WEB U/X</a>
+          </p>
+          <p>
+            <a href="#!">Front-end</a>
+          </p>
+          <p>
+            <a href="#!">CMC WEB</a>
+          </p>
+          <p>
+            <a href="#!">ENGLISH PROFESSION</a>
+          </p>
+
+        </div>
+        <!-- Grid column -->
+
+        <!-- Grid column -->
+        <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+
+          <!-- Links -->
+          <h6 class="text-uppercase font-weight-bold">Useful links</h6>
+          <hr class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
+          <p>
+            <a href="#!">Flex-box</a>
+          </p>
+          <p>
+            <a href="#!">Grid</a>
+          </p>
+          <p>
+            <a href="#!">Html stek</a>
+          </p>
+          
+
+        </div>
+        <!-- Grid column -->
+
+        <!-- Grid column -->
+        <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+
+          <!-- Links -->
+          <h6 class="text-uppercase font-weight-bold">Contact</h6>
+          <hr class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
+          <p>
+            <i class="fas fa-home mr-3"></i> Rivne, Copernicus 44, UA</p>
+          <p>
+            <i class="fas fa-envelope mr-3"></i> vspwebux@gmail.com</p>
+          <p>
+            <i class="fas fa-phone mr-3"></i> + 01 234 567 88</p>
+          <p>
+            <i class="fas fa-print mr-3"></i> + 01 234 567 89</p>
+
+        </div>
+        <!-- Grid column -->
+
+      </div>
+      <!-- Grid row -->
+
+    </div>
+    <!-- Footer Links -->
+
+    <!-- Copyright -->
+    <div class="footer-copyright text-center py-3">© 2019 Copyright:
+      <a href="#">WEB U/X</a>
+    </div>
+    <!-- Copyright -->
+
+  </footer>
+  <!-- Footer -->
+  <!-- /Start your project here-->
+
+  <!-- SCRIPTS -->
+  <!-- JQuery -->
+  <script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>
+  <!-- Bootstrap tooltips -->
+  <script type="text/javascript" src="js/popper.min.js"></script>
+  <!-- Bootstrap core JavaScript -->
+  <script type="text/javascript" src="js/bootstrap.min.js"></script>
+  <!-- MDB core JavaScript -->
+  <script type="text/javascript" src="js/mdb.js"></script>
+</body>
+
+</html>
