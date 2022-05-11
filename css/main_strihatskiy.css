@@ -1,0 +1,297 @@
+body{
+	/*background-color: #000;*/
+	font-family: 'Open Sans', sans-serif;
+}
+
+.ttu{
+	text-transform: uppercase;
+}
+/*color*/
+.bg__dark{
+	background-color: #000;
+
+}
+.bg__white{
+	background-color: #fff;
+	
+}
+.color_orang{
+	color:#fcac45;
+}
+
+/*nav*/
+.cont{
+	width: 90%;
+	margin: 0 auto;
+}
+.navbar-brand{
+font-size: 24px;
+font-weight: 800;
+}
+.nav-link{
+	font-size: 14px;
+	font-weight: 700;
+	margin-left: 10px;
+
+} 
+.d-wrap{
+	display: flex;
+	flex-wrap: wrap;
+} 
+.border__bottom{
+	border-bottom: 3px solid #000;
+}
+.border__bottom:hover{
+	border-bottom: 3px solid #fcac45;
+	transition: all 1s ;
+
+}
+/*header*/
+.header{
+	padding: 200px 0px 200px;
+}
+.title{
+	display: flex;
+	justify-content: center;
+	font-size: 44px;
+   color: #999999;
+}
+.title span{
+	margin-left: 20px;
+}
+.header__text{
+	display: flex;
+	justify-content: center;
+	font-size: 16pt;
+color: #999999;	
+}
+.header__text span{
+	margin:0px 10px;
+color: #fff;	
+}
+/*<!-- секція один -->*/
+.one{
+	padding: 100px 0px 100px;
+}
+
+.one__title{
+width: 80%;
+	font-size: 34px;	
+}
+.one__title span{
+	padding-left: 10px;
+font-weight: 700;
+
+}
+.one__text{
+	padding-top: 20px;
+	font-size: 18px;
+	width: 80%;
+	color: silver;	
+}
+.one__list{
+	padding-top: 30px;
+	font-size: 18px;
+}
+.one__list__one span{
+padding-left: 10px;
+font-weight: 700;
+color: #5a5a5a;
+}
+.one__list__one i{
+color: #5a5a5a;
+}
+.one__list__one{
+	padding-bottom: 10px;
+}
+/*<!-- секція два -->*/
+.two{
+	padding: 100px 0px 100px;
+}
+.our_team{
+	font-size: 44px;
+	color: #fff;
+	display: flex;
+	justify-content: center;
+}
+.our_team__img{
+	padding-top: 20px;
+	display: flex;
+    margin: 0 auto;
+}
+.two_card{
+	justify-content: center;
+	color: #fff;
+	padding-top:100px ;
+}
+.two__name{
+	padding-top: 20px;
+	display: flex;
+	justify-content: center;
+	font-weight: 700;
+}
+.two_card__img{
+	margin: 0 auto;
+	display: flex;
+	
+}
+.two__profesion{
+display: flex;
+	justify-content: center;	
+}
+.two__text{
+
+	padding-top: 30px;
+	display: flex;
+	text-align: center;
+}
+/*<!-- секція три -->*/
+.three{
+	padding: 100px 0px 100px;
+}
+.our_services{
+	font-size: 44px;
+	color: #000;
+	display: flex;
+	justify-content: center;
+}
+.our_team__img{
+	padding-top: 20px;
+	display: flex;
+margin: 0 auto;
+}
+.three_card{
+	justify-content: center;
+	color: #000;
+	padding-top:100px ;
+}
+.three__name{
+	padding-top: 20px;
+	display: flex;
+	justify-content: center;
+	font-weight: 700;
+	font-size: 25px;
+}
+.three_card__img{
+	margin: 0 auto;
+	display: flex;
+	
+}
+.three__profesion{
+display: flex;
+	justify-content: center;	
+}
+.three__text{
+
+	padding-top: 30px;
+	display: flex;
+	text-align: center;
+}
+.three__text__title{
+text-align: center;
+font-size: 16px;
+padding-top: 50px;
+}
+/*секція чотири*/
+.four{
+	padding: 100px 0px 100px;
+}
+.OUR_CLIENTS{
+	font-size: 44px;
+	color: #fff;
+	display: flex;
+	justify-content: center;
+}
+.OUR_CLIENTS span{
+	font-weight: 700;
+	padding-left: 10px;
+}
+.four__block{
+	padding: 100px 0px;
+	display: flex;
+	justify-content: center;
+	opacity: 0.8;
+
+}
+.four__img{
+	padding: 0px 10px;
+}
+/*<!-- секція пять -->*/
+.five{
+	padding: 100px 0px 100px;
+}
+
+.five_title span{
+	font-weight: 700;
+	padding-left: 10px;
+}
+.five_img__block{
+	padding-top: 150px;
+}
+.five_card__img{
+	padding-top: 50px;
+}
+/*<!-- секція шість -->*/
+.six{
+	padding: 100px 0px 100px;
+}
+.six__title span{
+	padding-right: 10px;
+}
+.six__text__title{
+text-align: center;
+font-size: 16px;
+padding-top: 50px;
+color: #fff;
+width: 70%;
+display: flex;
+margin: 0	auto;
+
+}
+.six__text__title span{
+	font-weight: 700;
+}
+.six__text__footer{
+	display: flex;
+    justify-content: center;
+}
+/*<!-- секція сім -->*/
+.form{
+	padding-top: 100px;
+}
+label span {
+	color: red;
+} 
+input{
+	width: 100%;
+}
+.input__message{
+	padding-top: 30px;
+	height: 150px;
+}
+.message{
+	padding-top: 30px;
+}
+.warning{
+	padding-top: 30px;
+	display: flex;
+    justify-content: flex-end;
+}
+.warning button{
+	padding: 10px 70px;
+	color: #fff;
+	font-weight: 700;
+	
+}
+/*<!-- секція вісім -->*/
+.eith{
+	padding: 50px 0px;
+}
+.linck{
+	display: flex;
+	justify-content: center;
+}
+.linck__img{
+	padding:0px 10px;
+
+}

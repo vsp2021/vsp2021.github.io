@@ -1,0 +1,42 @@
+html,
+body,
+header,
+.view {
+  height: 100%;
+}
+
+.w_t a{
+    padding: 7px;
+    color: white;
+}
+@media (min-width: 768px) {
+    nav{
+        width: 100%;
+    }
+    .view {
+        overflow: visible;
+        margin-top: -56px;
+    }
+}
+.navbar {
+    z-index: 1;
+}
+.navbar {
+    background-color: transparent;
+}
+.top-nav-collapse {
+    background-color: #4285F4;
+}
+@media only screen and (max-width: 568px) {
+    nav{
+        width: 100%;
+    }
+    .navbar {
+        background-color: #4285F4;
+    }
+}
+.wrapper{
+    margin-top: 3%;
+    margin-left: 15%;
+    max-width: 70%;
+}

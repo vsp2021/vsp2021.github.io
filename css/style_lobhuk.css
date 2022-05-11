@@ -1,0 +1,220 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+html,
+body {
+    /* задаємо висоту сайту */
+    height: 100%;
+}
+body {
+    /* задаємо фон сторінки */
+    background: #f3f9fa url("img/fon.jpg") repeat;
+    /* шрифт тексту */
+    font: 14px/22px Arial;
+    /* колір тексту в блоці */
+    color: #444;
+}
+/* Шапка */
+#header {
+    width: 100%;
+    height: 148px;
+    background: white url("file:///C:/Users/%D0%9F%D0%BE%D0%BB%D1%8C%D0%B7%D0%BE%D0%B2%D0%B0%D1%82%D0%B5%D0%BB%D1%8C/Desktop/web/work/6/img/bg-header.jpg") left top no-repeat;
+}
+#header .logo {
+    margin-top: 51px;
+    float: left;
+}
+
+#header .contacts {
+    margin-top: 25px;
+    float: right;
+    text-align: right;
+}
+#header .contacts p {
+    font: bold 18px/14px Arial;
+    color: black;
+}
+.green {
+    color: #1d8b15;
+}
+
+.gray {
+    color: #666;
+}
+
+#header .contacts p .green {
+    font-size: 14px;
+    font-weight: normal;
+}
+
+#header .contacts p .gray {
+    font-size: 12px;
+    font-weight: normal;
+}
+
+.contacts {
+    float: right;
+    text-align: right;
+    margin-top: 25px;
+}
+
+/* навігація  */
+#navigation {
+    height: 43px;
+    background-color: #3f3f3f;
+    clear: both;
+}
+.my_navigation{
+    height: 40px;
+}
+.nav_li {
+    float: left;
+    border-right: 1px solid #444;
+    position: relative;
+    list-style-type: none;
+}
+.topnav_item {
+    font-weight: bold;
+    line-height: 14px;
+    color: white;
+    text-shadow: 0 1px 0 rgba(0,0,0,0.25);
+    display: block;
+    padding: 13px 28px;
+    border-right: 1px solid #333;
+    text-decoration: none;
+}
+.nav_li:first-child>a {
+    padding-left: 29px;
+}
+.myNav_ul {
+    background-color: #333;
+    border-radius: 0 0 3px 3px;
+    -webkit-border-radius: 0 0 3px 3px;
+    -moz-border-radius: 0 0 3px 3px;
+    overflow: hidden;
+    position: absolute;
+    top: 40px;
+    width: 200px;
+    display: none;
+}
+.myNav_li {
+    list-style-type: none;
+}
+.dropdown {
+    font-size: 12px;
+    display: block;
+    line-height: 12px;
+    color: #eee;
+    padding: 10px 28px;
+    border-top: 1px solid #444;
+    text-decoration: none;
+}
+.topnav_item:hover{
+    background-color: #444;
+}
+.dropdown:hover {
+    background-color: #222;
+    
+}
+.nav_li:hover>.myNav_ul {
+    display: block;
+}
+/* навігація  */
+.wrap {
+    /* задаємо ширину блоку */
+    width: 92%;
+    /* відступи */
+    margin: 0 auto;
+
+    /* мінімальна висота */
+    min-height: 100%;
+    /* відносне позиціювання */
+    position: relative;
+    /* задаємо мінімальна ширина блоку */
+    min-width: 700px;
+}
+/* footer */
+#footer {
+    
+    /* задаємо висоту блоку */
+    height: 72px;
+     /* відносне позиціювання */
+    position: absolute;
+    /* відступи знизу */
+    bottom: 0;
+    /*  ширина */
+    width: 100%;
+    background-color: white;
+    border-top: 3px solid #ddd;
+}
+
+.left{
+    margin-top: 20px;
+}
+.left_a {
+    text-decoration: none;
+    font-weight: bold;
+    margin-left: 17px;
+    text-align: center;
+}
+
+ .count {
+    float: right;
+    margin-top: 19px;
+}
+/* footer */
+.content {
+    clear: both;
+    margin-top: 30px;
+    overflow: hidden;
+    /* відступ знизу */
+    padding-bottom: 50px;
+}
+#leftcol { 
+     /*  ширина */
+    width: 20%;;
+    /* вирівнювання по лівому краю */
+    float: left;
+}
+#centercol {
+    /* позиція центр */
+    overflow: hidden;
+}
+#rightcol {
+    width: 20%;;
+    float: right;
+    
+}
+
+#main {
+     /* позиція центр */
+    overflow: hidden;
+}
+
+a {
+    color: #0083df;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+h1 {
+    font: normal 26px/26px Arial;
+    margin-bottom: 20px;
+}
+
+h2 {
+    font: normal 22px/22px Arial;
+    margin-bottom: 20px;
+}
+
+h1,h2,h3 {
+    color: black;
+}
+
+p {
+    margin-bottom: 15px;
+}
+
